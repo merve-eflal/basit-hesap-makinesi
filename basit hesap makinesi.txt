@@ -1,0 +1,17 @@
+sayi1=int(input("İlk sayıyı giriniz: "))
+sayi2=int(input("İkinci sayıyı giriniz: "))
+islem=input("Yapmak istediğiniz işlemi türkçe karakter kullanarak yazınız: ")
+
+carpma=sayi1*sayi2
+bolme=sayi1/sayi2
+toplama=sayi1+sayi2
+cıkarma=sayi1-sayi2
+
+if islem == "çarpma":
+  print(sayi1,"x",sayi2,"=",carpma)
+elif islem == "bölme":
+  print(sayi1,"/",sayi2,"=",bolme)
+elif islem == "toplama":
+  print(sayi1,"+",sayi2,"=",toplama)
+elif islem == "çıkarma":
+  print(sayi1,"-",sayi2,"=",cıkarma)
